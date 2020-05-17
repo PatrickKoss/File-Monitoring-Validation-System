@@ -17,8 +17,8 @@
 -   Install pip.
 -   Install all python modules by pip install -r requirements or install them by hand with pip install nameOfTheModule.
 -   Make migrations to setup the database by `python manage.py migrate` and `python manage.py makemigrations`
--   run the watcher by python ./main/Logic/Check.py
--   check the system by simulating the system functionality with python ./main/Logic/TestFileGenerator.py
+-   run the watcher by `python ./main/Logic/Watcher.py`
+-   check the system by simulating the system functionality with `python ./main/Logic/TestFileGenerator.py`
 
 
 ## Detailed Build Setup
@@ -35,7 +35,7 @@ python manage.py makemigration
 python manage.py runserver
 
 # run the watcher
-python ./main/Logic/Check.py
+python ./main/Logic/Watcher.py
 ```
 
 ## System Purpose and Functionality
